@@ -5,8 +5,7 @@
       "src": "slip-reader/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "workDirectory": "slip-reader",
-        "outputDirectory": "build"
+        "distDir": "build"
       }
     },
     {
@@ -18,9 +17,6 @@
     {
       "src": "/api/(.*)",
       "dest": "app.py"
-    },
-    {
-      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
