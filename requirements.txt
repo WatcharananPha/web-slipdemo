@@ -1,5 +1,7 @@
-flask
-flask-cors
+fastapi
+uvicorn
 python-dotenv
 google-generativeai
-Werkzeug
+python-multipart
+pydantic
+pillow
