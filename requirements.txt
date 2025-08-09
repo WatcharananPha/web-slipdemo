@@ -1,7 +1,11 @@
 fastapi
-uvicorn
-python-dotenv
-google-generativeai
-python-multipart
+uvicorn[standard]
 pydantic
+pydantic-settings
+google-generativeai
+gspread
+google-auth-oauthlib
 pillow
+line-bot-sdk
+anyio
+python-dotenv
